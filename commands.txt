@@ -1,0 +1,6 @@
+~/.yarn/bin/truffle compile
+~/.yarn/bin/truffle test
+~/.yarn/bin/truffle console
+~/.yarn/bin/truffle truffle migrate --compile-all --reset --network development
+
+~/.yarn/bin/ganache-cli -p 8545
